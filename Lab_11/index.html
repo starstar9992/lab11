@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+<html>
+<head>
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=5CWsJPiD2HlqvEei_f7-vNXk2_oT7mXnga0_sxliN7gQ8XPHbkmEJttUean7RLp9XukIlSVBkxikpsQaKrc5tnaLFNN-uAsbJewsyuFJw2U" charset="UTF-8"></script></head>
+<body>
+<div>
+		<img src="images/Rectangle 11.png">
+</div>
+<div class="login-wrapper">
+	<div class="mr">
+	<h3>Sign in</h3>
+	<p>If you don’t have an account register</p>
+	<p>You can <a href="#">Register here !</a></p>
+</div>
+	<div class="login-page">
+  <div class="form">
+    <form>
+      <input type="text" placeholder="&#xf003;  Enter your email address">
+      <input type="password" id="password" placeholder="&#xf023;   Enter your password">
+      <i class="fas fa-eye" onclick="show()"></i> 
+      <br>
+      <br>
+      <button>Login</button>
+    </form>
+  </div>
+</div>
+</div>
+
+  <script>
+    function show(){
+      var password = document.getElementById("password");
+      var icon = document.querySelector(".fas")
+      if(password.type === "password"){
+        password.type = "text";
+      }
+      else {
+        password.type = "password";
+      }
+    };
+  </script>
+</body>
+</html>
